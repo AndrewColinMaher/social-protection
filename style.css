@@ -1,17 +1,14 @@
 .container-1 {
-    display: flex;
-    align-items: center;
-    
+	display: flex;
+	align-items: center;
 }
 
 .flex-item {
 	border: 1px #ccc solid;
-    padding: 10px;
-     }
-
-ul {
-    display: flex;
-    list-style: none;
+	padding: 10px;
 }
 
-
+ul {
+	display: flex;
+	list-style: none;
+}
