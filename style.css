@@ -4,11 +4,18 @@
 }
 
 .flex-item {
-	border: 1px #ccc solid;
-	padding: 10px;
+	
+
 }
 
 ul {
 	display: flex;
-	list-style: none;
+    list-style: none;
+    
+}
+li {
+    border: 1px #ccc solid;
+    width: 20%;
+    padding: 1em;
+    /* padding: 10px; */
 }
