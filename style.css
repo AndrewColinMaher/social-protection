@@ -1,28 +1,12 @@
-.flex-item {
+body {
+	margin: 10%;
 }
-
-.container {
-    margin: auto;
-    height:1445px;
-	
-}
-/* ul li {
-    margin:auto;
-} */
-/* ul {
+.flex-container {
 	display: flex;
-	list-style: none;
-	justify-content: flex-end;
-	justify-content: space-around;
-} */
-.items ul {
-    display:flex;
-    list-style: none;
-    justify-content: flex-end;
+	height: 300px;
 }
-li {
+.flex-container > div {
+	width: 200px;
 	border: 1px #ccc solid;
-	width: 20%;
 	padding: 1em;
-	/* padding: 10px; */
 }
