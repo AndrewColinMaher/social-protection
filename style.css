@@ -1,14 +1,18 @@
 @import url('https://fonts.google.com/specimen/Spartan');
 body {
-	margin: 10%;
+	margin: 7em;
 	font-family: 'Spartan', sans-serif;
 }
 .flex-container {
 	display: flex;
 	height: 300px;
+	align-items: center;
+	justify-content: space-between;
 }
 .flex-container > div {
-	width: 200px;
+	width: 300px;
 	border: 1px #ccc solid;
 	padding: 1em;
+	border-radius: 5%;
+	background-color: hsl(300, 43%, 22%);
 }
