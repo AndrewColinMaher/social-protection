@@ -1,15 +1,17 @@
-.container-1 {
-	display: flex;
-	align-items: center;
-}
-
 .flex-item {
 }
 
+.container {
+	margin: auto;
+	padding: 3em;
+}
+/* ul li {
+    margin:auto;
+} */
 ul {
 	display: flex;
 	list-style: none;
-	justify-content: flex-start;
+	justify-content: flex-end;
 	justify-content: space-around;
 }
 li {
