@@ -1,5 +1,7 @@
+@import url('https://fonts.google.com/specimen/Spartan');
 body {
 	margin: 10%;
+	font-family: 'Spartan', sans-serif;
 }
 .flex-container {
 	display: flex;
